@@ -1,11 +1,5 @@
 # Intro to Pytorch via Wide and Deep Models
 
-To get the data simply run
-
-```bash
-bash download.sh
-```
-
 Requirements are:
 
 ```
@@ -22,7 +16,8 @@ repo and create an environment with your preferred method. E.g.:
 ```bash
 mkvirtualenv pydata -p python3
 git clone https://github.com/jrzaurin/pytorch-tutorial-pydata-cambridge
-pip install requirements
+cd pytorch-tutorial-pydata-cambridge
+pip install -r requirements
 bash download.sh
 ```
 
